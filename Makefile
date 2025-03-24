@@ -1,8 +1,8 @@
 install:
 	poetry install
 
-build:
-	poetry build
+download-model:
+	poetry run python3 ./src/download.py
 
 run:
 	poetry run surya_gui
