@@ -1,0 +1,19 @@
+[project]
+name = "python-surya-ocr"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "rayhankinan",email = "rayhankinan@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "surya-ocr (>=0.13.0,<0.14.0)",
+    "streamlit (>=1.43.2,<2.0.0)",
+    "pdftext (>=0.6.2,<0.7.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
